@@ -16,4 +16,4 @@ def Fibonacci(num, memo = {}):
         memo[num] = Fibonacci(num - 1, memo) + Fibonacci(num - 2, memo)
     return memo[num]
  
-print(Fibonacci(123))
+print(Fibonacci(1))
